@@ -1,10 +1,24 @@
 @charset "UTF-8";
-
 /* Typical Device Breakpoints 
 Small screens: até 600px.
-Mobile: de 600px até 768px.
+Mobile: de 600px até 768px. 
 Tablet: de 768px até 992px.
 Desktop: de 992px até 1.200px.
 Big screens: acima de 1.200px.
 */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}  
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: center center;
+    background-position: center;
+}
 
