@@ -7,4 +7,10 @@
     font: inherit;
     vertical-align: baseline;
 } 
- 
+
+body {
+    background-image: url('/img/background_mobile.webp');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
