@@ -51,13 +51,17 @@ Big screens: acima de 1.200px.
     }
 }
 
-body {
+.container {
     display: flex;
+}
+
+p {
+    color: var(--color-primary);
 }
 
 .texto-capa p {
     color: var(--color-primary);
-    font-size: 48px;
+    font-size: 62px;
     width: 50%;
 }
 
