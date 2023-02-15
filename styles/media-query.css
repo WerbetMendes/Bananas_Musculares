@@ -13,7 +13,6 @@ Big screens: acima de 1.200px.
 }
 
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -50,6 +49,10 @@ Big screens: acima de 1.200px.
         height: 100vh;
     }
 }
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -77,7 +80,7 @@ Big screens: acima de 1.200px.
 }
 
 .transforme h1{
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 30px; 
 }
 
@@ -90,6 +93,21 @@ Big screens: acima de 1.200px.
 }
 
 .btn-comprar:hover {
+    color: black;
+    background-color: var(--color-primary);
+}
+
+.btn-comprar a:link{
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.btn-comprar a:visited {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.btn-comprar a:hover {
     color: black;
     background-color: var(--color-primary);
 }
@@ -111,7 +129,14 @@ Big screens: acima de 1.200px.
     background-color: var(--color-primary);
 }
 
-.ebook-cover {
-    size: 20px;
+.cover p {
+    text-align: center;
+    font-size: 22px;
+}
+
+.cover p span{
+    display: block;
+    text-decoration: line-through;
+    margin-bottom: 0.5em;
 }
 
