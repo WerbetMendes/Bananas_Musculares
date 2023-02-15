@@ -13,7 +13,7 @@ Big screens: acima de 1.200px.
 }
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -50,18 +50,68 @@ Big screens: acima de 1.200px.
         height: 100vh;
     }
 }
-
 .container {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .transforme {
+    width: 65%;
+    justify-content: center;
+    align-items: center;
 }
 
-p {
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transforme h1,p {
     color: var(--color-primary);
 }
 
-.texto-capa p {
+.transforme h1{
+    font-size: 70px;
+    margin-bottom: 30px; 
+}
+
+.btn-comprar {
     color: var(--color-primary);
-    font-size: 62px;
-    width: 50%;
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.btn-comprar:hover {
+    color: black;
+    background-color: var(--color-primary);
+}
+
+.btn-assistir {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.btn-assistir i {
+    margin-right: 5px;
+}
+
+.btn-assistir:hover {
+    color: #557CAB;
+    background-color: var(--color-primary);
+}
+
+.ebook-cover {
+    size: 20px;
 }
 
