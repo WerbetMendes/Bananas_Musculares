@@ -266,3 +266,13 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+/*Footer*/
+footer {
+    background-color: #E6E6E6;
+}
+
+footer .pix, .kiwify {
+    width: 150px;
+    height: 30px;
+}
