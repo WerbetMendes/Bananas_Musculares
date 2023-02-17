@@ -10,8 +10,6 @@ Big screens: acima de 1.200px.
     --color-primary: #FECF3E;
     --color-secondary: #0E154A;
     --textcolor: #DCD9D9;
-    --fa-primary-color: #FECF3E;
-
 }
 
 * {
@@ -32,8 +30,301 @@ Big screens: acima de 1.200px.
         background-repeat: no-repeat;
         height: 100vh;
     } 
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 900px;
+        height: 100vh;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .transforme {
+        width: 65%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .transforme {
+        margin-right: 20px;
+    }
+
+    .transforme h1,p {
+        color: var(--color-primary);
+    }
+    
+    .transforme h1{
+        font-size: 36px;
+        margin-bottom: 30px; 
+    }
+    
+    .btn-comprar {
+        color: var(--color-primary);
+        background-color: transparent;
+        border: 2px solid var(--color-primary);
+        border-radius: 15px;
+        padding: 12px;
+        font-size: 16px;
+    }
+    
+    .btn-comprar:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .btn-comprar a:link{
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar a:visited {
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar a:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .btn-assistir {
+        color: var(--color-primary);
+        background-color: var(--color-secondary);
+        border-radius: 15px;
+        padding: 12px;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    
+    .btn-assistir i {
+        margin-right: 5px;
+    }
+    
+    .btn-assistir:hover {
+        color: #557CAB;
+        background-color: var(--color-primary);
+    }
+    
+    .ebook-cover {
+        width: 160px;
+        height: 269px;
+    }
+
+    .cover {
+        width: 25%;
+    }
+    
+    .cover p {
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .cover p span{
+        display: block;
+        text-decoration: line-through;
+        font-size: 16px;
+        margin-bottom: 0.5em;
+    }
+    
+    /*Page 2*/
+    #second-page {
+        display: flex;
+        background-color: white;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #second-page p{
+        max-width: 1200px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+    /*Page 3*/
+    .third-page {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-secondary);
+    }
+    
+    .ebook-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .third-page h3 {
+        color: var(--color-primary);
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    
+    .list {
+        column-count: 2;
+        list-style-type: none;
+        color: var(--textcolor);
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    
+    .list li {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    
+    .ebook-content i{
+        color: var(--color-primary);
+        margin-right: 7px;
+    }
+    
+    .img-content {
+        background-image: url('/img/bananas_com_mel_desktop.webp');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+    }
+    
+    /*Page 4*/
+    .fourth-page {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bonus1 {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .fourth-page h3 {
+        color: var(--color-primary);
+        font-size: 30px;
+        margin: 30px 0;
+        text-align: center;
+    }
+    
+    .fourth-page p {
+        color: black;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .bonus1 img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+    /*Page 5*/
+    .fifth-page {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-secondary);
+    }
+    
+    .bonus2 {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .fifth-page p {
+        color: var(--textcolor);
+        font-size: 18px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .bonus2 img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .btn-comprar2 {
+        color: var(--color-primary);
+        background-color: transparent;
+        border: 2px solid var(--color-primary);
+        border-radius: 20px;
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .btn-comprar2:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .btn-comprar2 a:link{
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar2 a:visited {
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar2 a:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .desgracado {
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*Footer*/
+    footer {
+        background-color: black;
+        width: 100%;
+        height: 160px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }  
+
+    footer p{
+        width: 50%;
+        margin-left: 20px;
+    }
+    
+    .img-kiwify, .img-pix {
+        width: 100px;
+        height: 26px;
+    }
+    
+    .img-kiwify {
+        margin-left: 30px;
+    }
 }
 
+/*DESKTOP*/
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     body {
         background-image: url('/img/background_site_desktop.webp');
@@ -42,8 +333,296 @@ Big screens: acima de 1.200px.
         background-repeat: no-repeat;
         height: 100vh;
     }
-}   
+
+    html {
+        scroll-behavior: smooth;
+    }
     
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        height: 100vh;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .transforme {
+        width: 65%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .transforme h1,p {
+        color: var(--color-primary);
+    }
+    
+    .transforme h1{
+        font-size: 48px;
+        margin-bottom: 20px; 
+    }
+    
+    .btn-comprar {
+        color: var(--color-primary);
+        background-color: transparent;
+        border: 2px solid var(--color-primary);
+        border-radius: 20px;
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .btn-comprar:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .btn-comprar a:link{
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar a:visited {
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar a:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .btn-assistir {
+        color: var(--color-primary);
+        background-color: var(--color-secondary);
+        border-radius: 20px;
+        padding: 15px;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    
+    .btn-assistir i {
+        margin-right: 5px;
+    }
+    
+    .btn-assistir:hover {
+        color: #557CAB;
+        background-color: var(--color-primary);
+    }
+    
+    .ebook-cover {
+        width: 240px;
+        height: 404px;
+    }
+    
+    .cover p {
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .cover p span{
+        display: block;
+        text-decoration: line-through;
+        font-size: 16px;
+        margin-bottom: 0.5em;
+    }
+    
+    /*Page 2*/
+    #second-page {
+        display: flex;
+        background-color: white;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #second-page p{
+        max-width: 1200px;
+        font-size: 30px;
+        line-height: 60px;
+        margin: 0 40px;
+    }
+    
+    /*Page 3*/
+    .third-page {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-secondary);
+    }
+    
+    .ebook-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .third-page h3 {
+        color: var(--color-primary);
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    
+    .list {
+        column-count: 2;
+        list-style-type: none;
+        color: var(--textcolor);
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    
+    .list li {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    
+    .ebook-content i{
+        color: var(--color-primary);
+        margin-right: 7px;
+    }
+    
+    .img-content {
+        background-image: url('/img/bananas_com_mel_desktop.webp');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+    }
+    
+    /*Page 4*/
+    .fourth-page {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bonus1 {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .fourth-page h3 {
+        color: var(--color-primary);
+        font-size: 30px;
+        margin: 30px 0;
+        text-align: center;
+    }
+    
+    .fourth-page p {
+        color: black;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .bonus1 img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+    /*Page 5*/
+    .fifth-page {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-secondary);
+    }
+    
+    .bonus2 {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .fifth-page p {
+        color: var(--textcolor);
+        font-size: 18px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .bonus2 img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .btn-comprar2 {
+        color: var(--color-primary);
+        background-color: transparent;
+        border: 2px solid var(--color-primary);
+        border-radius: 20px;
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .btn-comprar2:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .btn-comprar2 a:link{
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar2 a:visited {
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar2 a:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .desgracado {
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*Footer*/
+    footer {
+        background-color: black;
+        width: 100%;
+        height: 160px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    footer p {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-kiwify, .img-pix {
+        width: 150px;
+        height: 40px;
+    }
+    
+    .img-pix {
+        margin-right: 20px;
+    }
+    
+}   
+
+/*BIG SCREENS*/    
 @media screen and (min-width: 1200px){
     body {
         background-image: url('/img/background_site_desktop.webp');
@@ -52,281 +631,291 @@ Big screens: acima de 1.200px.
         background-repeat: no-repeat;
         height: 100vh;
     }
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        height: 100vh;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .transforme {
+        width: 65%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .transforme h1,p {
+        color: var(--color-primary);
+    }
+    
+    .transforme h1{
+        font-size: 60px;
+        margin-bottom: 30px; 
+    }
+    
+    .btn-comprar {
+        color: var(--color-primary);
+        background-color: transparent;
+        border: 2px solid var(--color-primary);
+        border-radius: 20px;
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .btn-comprar:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .btn-comprar a:link{
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar a:visited {
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar a:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .btn-assistir {
+        color: var(--color-primary);
+        background-color: var(--color-secondary);
+        border-radius: 20px;
+        padding: 15px;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    
+    .btn-assistir i {
+        margin-right: 5px;
+    }
+    
+    .btn-assistir:hover {
+        color: #557CAB;
+        background-color: var(--color-primary);
+    }
+    
+    .ebook-cover {
+        width: 240px;
+        height: 404px;
+    }
+    
+    .cover p {
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .cover p span{
+        display: block;
+        text-decoration: line-through;
+        font-size: 16px;
+        margin-bottom: 0.5em;
+    }
+    
+    /*Page 2*/
+    #second-page {
+        display: flex;
+        background-color: white;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #second-page p{
+        max-width: 1200px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+    /*Page 3*/
+    .third-page {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-secondary);
+    }
+    
+    .ebook-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .third-page h3 {
+        color: var(--color-primary);
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    
+    .list {
+        column-count: 2;
+        list-style-type: none;
+        color: var(--textcolor);
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    
+    .list li {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    
+    .ebook-content i{
+        color: var(--color-primary);
+        margin-right: 7px;
+    }
+    
+    .img-content {
+        background-image: url('/img/bananas_com_mel_desktop.webp');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+    }
+    
+    /*Page 4*/
+    .fourth-page {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bonus1 {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .fourth-page h3 {
+        color: var(--color-primary);
+        font-size: 30px;
+        margin: 30px 0;
+        text-align: center;
+    }
+    
+    .fourth-page p {
+        color: black;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .bonus1 img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+    /*Page 5*/
+    .fifth-page {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-secondary);
+    }
+    
+    .bonus2 {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .fifth-page p {
+        color: var(--textcolor);
+        font-size: 18px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .bonus2 img {
+        display: block;
+        margin: 0 auto;
+        width: 800px;
+        height: 400px;
+    }
+    
+    .btn-comprar2 {
+        color: var(--color-primary);
+        background-color: transparent;
+        border: 2px solid var(--color-primary);
+        border-radius: 20px;
+        padding: 15px;
+    }
+    
+    .btn-comprar2:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .btn-comprar2 a:link{
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar2 a:visited {
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+    
+    .btn-comprar2 a:hover {
+        color: black;
+        background-color: var(--color-primary);
+    }
+    
+    .desgracado {
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*Footer*/
+    footer {
+        background-color: black;
+        width: 100%;
+        height: 160px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }  
+
+    footer p{
+        width: 50%;
+        margin-left: 20px;
+    }
+    
+    .img-kiwify, .img-pix {
+        width: 100px;
+        height: 26px;
+    }
+    
+    .img-kiwify {
+        margin-left: 30px;
+    }
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    height: 100vh;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.container .transforme {
-    width: 65%;
-    justify-content: center;
-    align-items: center;
-}
-
-.buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.transforme h1,p {
-    color: var(--color-primary);
-}
-
-.transforme h1{
-    font-size: 60px;
-    margin-bottom: 30px; 
-}
-
-.btn-comprar {
-    color: var(--color-primary);
-    background-color: transparent;
-    border: 2px solid var(--color-primary);
-    border-radius: 20px;
-    padding: 15px;
-}
-
-.btn-comprar:hover {
-    color: black;
-    background-color: var(--color-primary);
-}
-
-.btn-comprar a:link{
-    color: var(--color-primary);
-    text-decoration: none;
-}
-
-.btn-comprar a:visited {
-    color: var(--color-primary);
-    text-decoration: none;
-}
-
-.btn-comprar a:hover {
-    color: black;
-    background-color: var(--color-primary);
-}
-
-.btn-assistir {
-    color: var(--color-primary);
-    background-color: var(--color-secondary);
-    border-radius: 20px;
-    padding: 15px;
-    margin-left: 20px;
-}
-
-.btn-assistir i {
-    margin-right: 5px;
-}
-
-.btn-assistir:hover {
-    color: #557CAB;
-    background-color: var(--color-primary);
-}
-
-.cover p {
-    text-align: center;
-    font-size: 16px;
-}
-
-.cover p span{
-    display: block;
-    text-decoration: line-through;
-    margin-bottom: 0.5em;
-}
-
-/*Page 2*/
-#second-page {
-    display: flex;
-    background-color: white;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-
-#second-page p{
-    max-width: 1200px;
-    font-size: 40px;
-    line-height: 60px;
-}
-
-/*Page 3*/
-.third-page {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-secondary);
-}
-
-.ebook-content {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.third-page h3 {
-    color: var(--color-primary);
-    font-size: 30px;
-    margin: 30px 0;
-}
-
-.list {
-    column-count: 2;
-    list-style-type: none;
-    color: var(--textcolor);
-    margin-bottom: 20px;
-    padding: 0px;
-}
-
-.list li {
-    font-size: 18px;
-    margin-bottom: 16px;
-}
-
-.ebook-content i{
-    color: var(--color-primary);
-    margin-right: 7px;
-}
-
-.img-content {
-    background-image: url('/img/bananas_com_mel_desktop.webp');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-}
-
-/*Page 4*/
-.fourth-page {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bonus1 {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.fourth-page h3 {
-    color: var(--color-primary);
-    font-size: 30px;
-    margin: 30px 0;
-    text-align: center;
-}
-
-.fourth-page p {
-    color: black;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.bonus1 img {
-    display: block;
-    margin: 0 auto;
-}
-
-
-/*Page 5*/
-.fifth-page {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-secondary);
-}
-
-.bonus2 {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.fifth-page p {
-    color: var(--textcolor);
-    font-size: 18px;
-    margin: 20px 0;
-    text-align: center;
-}
-
-.bonus2 img {
-    display: block;
-    margin: 0 auto;
-}
-
-.btn-comprar2 {
-    color: var(--color-primary);
-    background-color: transparent;
-    border: 2px solid var(--color-primary);
-    border-radius: 20px;
-    padding: 15px;
-}
-
-.btn-comprar2:hover {
-    color: black;
-    background-color: var(--color-primary);
-}
-
-.btn-comprar2 a:link{
-    color: var(--color-primary);
-    text-decoration: none;
-}
-
-.btn-comprar2 a:visited {
-    color: var(--color-primary);
-    text-decoration: none;
-}
-
-.btn-comprar2 a:hover {
-    color: black;
-    background-color: var(--color-primary);
-}
-
-.desgracado {
-    display: flex;
-    justify-content: center;
-}
-
-/*Footer*/
-footer {
-    background-color: black;
-    width: 100%;
-    height: 160px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer p {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
-
-.img-kiwify, .img-pix {
-    width: 150px;
-    height: 40px;
-}
-
-.img-pix {
-    margin-right: 20px;
-}
