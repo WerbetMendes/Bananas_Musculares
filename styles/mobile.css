@@ -10,7 +10,7 @@
 } 
 
 body {
-    background-image: url('/img/background_mobile.webp');
+    background-image: url('/img/background-mobile.webp');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ body {
     align-items: center;
 }
 
-#second-page p{
+#second-page h2{
     max-width: 460px;
     font-size: 18px;
     line-height: 27px;
