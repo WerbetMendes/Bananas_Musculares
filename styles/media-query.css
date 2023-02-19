@@ -218,7 +218,7 @@ Big screens: acima de 1.200px.
     }
     
     .fourth-page h3 {
-        color: var(--color-primary);
+        color: #06060c;
         font-size: 30px;
         margin: 30px 0;
         text-align: center;
@@ -262,6 +262,8 @@ Big screens: acima de 1.200px.
     .bonus2 img {
         display: block;
         margin: 0 auto;
+        width: 640px;
+        height: 427px;
     }
     
     .btn-comprar2 {
@@ -312,6 +314,10 @@ Big screens: acima de 1.200px.
     footer p{
         width: 50%;
         margin-left: 20px;
+    }
+
+    footer i {
+        color: var(--color-primary);
     }
     
     .img-kiwify, .img-pix {
@@ -514,7 +520,7 @@ Big screens: acima de 1.200px.
     }
     
     .fourth-page h3 {
-        color: var(--color-primary);
+        color: #06060c;
         font-size: 30px;
         margin: 30px 0;
         text-align: center;
@@ -558,6 +564,8 @@ Big screens: acima de 1.200px.
     .bonus2 img {
         display: block;
         margin: 0 auto;
+        width: 800px;
+        height: 400px;
     }
     
     .btn-comprar2 {
@@ -609,6 +617,10 @@ Big screens: acima de 1.200px.
         width: 30%;
         display: flex;
         justify-content: center;
+    }
+
+    footer i {
+        color: var(--color-primary);
     }
 
     .img-kiwify, .img-pix {
@@ -812,7 +824,7 @@ Big screens: acima de 1.200px.
     }
     
     .fourth-page h3 {
-        color: var(--color-primary);
+        color: #06060c;
         font-size: 30px;
         margin: 30px 0;
         text-align: center;
@@ -911,6 +923,10 @@ Big screens: acima de 1.200px.
         justify-content: center;
     }
     
+    footer i {
+        color: var(--color-primary);
+    }
+
     .img-kiwify, .img-pix {
         width: 150px;
         height: 40px;

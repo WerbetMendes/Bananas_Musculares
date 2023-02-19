@@ -199,7 +199,7 @@ body {
 }
 
 .fourth-page h3 {
-    color: var(--color-primary);
+    color: #06060c;
     font-size: 20px;
     margin: 20px 0;
     text-align: center;
@@ -299,6 +299,10 @@ footer p{
     margin-left: 20px;
     font-size: 14px;
     text-align: center;
+}
+
+footer i {
+    color: var(--color-primary);
 }
 
 .img-kiwify, .img-pix {
