@@ -306,18 +306,14 @@ Big screens: acima de 1.200px.
         width: 100%;
         height: 160px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
-    }  
-
-    footer p{
-        width: 50%;
-        margin-left: 20px;
     }
-
-    footer i {
+    
+    footer i,
+    footer img {
         color: var(--color-primary);
+        margin-left: 30px;
     }
     
     .img-kiwify, .img-pix {
@@ -608,19 +604,14 @@ Big screens: acima de 1.200px.
         width: 100%;
         height: 160px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
     }
     
-    footer p {
-        width: 30%;
-        display: flex;
-        justify-content: center;
-    }
-
-    footer i {
+    footer i,
+    footer img {
         color: var(--color-primary);
+        margin-left: 30px;
     }
 
     .img-kiwify, .img-pix {
@@ -912,19 +903,14 @@ Big screens: acima de 1.200px.
         width: 100%;
         height: 160px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
     }
     
-    footer p {
-        width: 30%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    footer i {
+    footer i,
+    footer img {
         color: var(--color-primary);
+        margin-left: 30px;
     }
 
     .img-kiwify, .img-pix {
