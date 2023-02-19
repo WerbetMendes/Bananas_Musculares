@@ -133,6 +133,7 @@ body {
 #second-page h2{
     max-width: 460px;
     font-size: 18px;
+    margin: 0 auto;
     line-height: 27px;
     text-align: center;
 }
@@ -214,8 +215,8 @@ body {
 .bonus1 img {
     display: block;
     margin: 0 auto;
-    width: 430px;
-    height: 286px;
+    width: 330px;
+    height: 246px;
 }
 
 
