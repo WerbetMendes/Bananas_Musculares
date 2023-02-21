@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    max-width: 460px;
+    max-width: 360px;
     height: 100vh;
     margin: 0 auto;
     justify-content: center;
@@ -48,7 +48,7 @@ body {
     justify-content: center;
 }
 
-.transforme h1,p {
+.transforme h1 {
     color: var(--color-primary);
 }
 

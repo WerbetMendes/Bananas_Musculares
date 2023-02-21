@@ -64,13 +64,15 @@ Big screens: acima de 1.200px.
         margin-right: 20px;
     }
 
-    .transforme h1,p {
+    .transforme h1 {
         color: var(--color-primary);
     }
     
-    .transforme h1{
+    .slide-in-bck-center {
         font-size: 36px;
         margin-bottom: 30px; 
+        -webkit-animation: slide-in-bck-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: slide-in-bck-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
     
     .btn-comprar {
@@ -665,7 +667,7 @@ Big screens: acima de 1.200px.
         justify-content: center;
     }
     
-    .transforme h1,p {
+    .transforme h1, p {
         color: var(--color-primary);
     }
     
@@ -746,7 +748,7 @@ Big screens: acima de 1.200px.
         justify-content: center;
         align-items: center;
     }
-    
+
     #second-page h2{
         max-width: 1200px;
         font-size: 40px;
